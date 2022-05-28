@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import NextLink from "next/link";
 
-import { AppColor } from "../config/theme";
+import { AppColor } from "../styles/theme";
 
 const Root = styled.header`
   height: 56px;

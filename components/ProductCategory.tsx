@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { AppColor } from "../config/theme";
 
-import {
-  productCategories,
-  productSubCategories,
-} from "../data/productCategory";
+import { productCategories } from "../shared/constant";
+import { AppColor } from "../styles/theme";
 
 const CategoryList = styled.ul`
   display: flex;
